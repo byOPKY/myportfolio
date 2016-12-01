@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$("#datos").slideDown(3000).slideUp(3000);
+	setTimeout(function(){
+		$("#about").slideDown(4000);
+		$("#initial").slideDown(3000);
+		$("#works").slideDown(6000);
+		$("#galary").slideDown(6000);
+	},6000);
+});

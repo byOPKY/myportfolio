@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+	}
+body{
+	color: white;
+	font-family: 'Days One', sans-serif;
+	font-size: 18px;
+
+}
+header{
+	padding: 1%;
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	z-index: 10;
+}
+header li{
+	float: right;
+	padding: 0 2%
+}
+header a{
+	color: white;
+}
+h3{
+	font-family: 'Oleo Script', cursive;
+	padding-top: 5%;
+}
+#datos{
+	display: none;
+	padding-top: 20%;
+}
+#about, #works, #galary, #initial{
+	display: none;
+} 
+
+#about{
+	font-family: 'Cookie', cursive;
+}
+#about p{
+	font-size: 28px;
+}
+#works .btn{
+	padding-top: 3%;
+	margin:2%;
+}
+.index{
+	z-index: 2;
+	position: absolute;
+	font-size: 12em;
+	opacity: 0.3;
+	letter-spacing: 10px;
+	font-family: 'Days One', sans-serif;
+}
+@media (max-width: 600px) {
+	body{
+		font-size: 14px;
+	}
+	.none{
+	display: block;
+		}
+	.block{
+	display: none;
+		}
+
+}
