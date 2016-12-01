@@ -5,6 +5,9 @@
 .pad-2{
 	padding: 2%;
 }
+.pad-3{
+	padding: 3%;
+}
 .pad-5{
 	padding: 5%;
 }
@@ -13,6 +16,12 @@
 }
 .pad-15{
 	padding: 15%;
+}
+.pad-t1{
+	padding-top: 1%;
+}
+.pad-t3{
+	padding-top: 3%;
 }
 .pad-t5{
 	padding-top: 5%;
@@ -35,6 +44,9 @@
 .pad-b2{
 	padding-bottom: 2%;
 }
+.pad-b5{
+	padding-bottom: 5%;
+}
 .pad-tl2{
 	padding: 2% 5% 0 13%;
 }
@@ -43,6 +55,9 @@
 }
 .pad-tl8{
 	padding: 2% 5% 0 10%;
+}
+.pad-bt10{
+	padding: 10% 0;
 }
 
 /*T e x t o*/
@@ -61,6 +76,9 @@
 
 .rigth{
 	right: 0;
+}
+.grayscale{
+
 }
 /*D i s  p l a y*/
 .none{
