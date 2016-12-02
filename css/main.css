@@ -5,7 +5,6 @@ body{
 	color: white;
 	font-family: 'Days One', sans-serif;
 	font-size: 18px;
-
 }
 header{
 	padding: 1%;
@@ -28,8 +27,10 @@ h3{
 #datos{
 	display: none;
 	padding-top: 20%;
+	background-image: url("../img/cuaro.gif");
+	background-size: 50%
 }
-#about, #works, #galary, #initial{
+#about, #hability, #galary, #works, #contact, footer{
 	display: none;
 } 
 
@@ -43,6 +44,13 @@ h3{
 	padding-top: 3%;
 	margin:2%;
 }
+#works .card{
+	margin: 2% 2% 2% 5%;
+}
+.card-reveal{
+	left: 0;
+	right: 0;
+}
 .index{
 	z-index: 2;
 	position: absolute;
@@ -51,10 +59,16 @@ h3{
 	letter-spacing: 10px;
 	font-family: 'Days One', sans-serif;
 }
+.raya{
+	background-image: url("../img/giphy.gif");
+}
 @media (max-width: 600px) {
 	body{
 		font-size: 14px;
 	}
+	#datos{
+	background-size: 180%
+}
 	.none{
 	display: block;
 		}

@@ -2,8 +2,10 @@ $(document).ready(function(){
 	$("#datos").slideDown(3000).slideUp(3000);
 	setTimeout(function(){
 		$("#about").slideDown(4000);
-		$("#initial").slideDown(3000);
-		$("#works").slideDown(6000);
+		$("#hability").slideDown(6000);
 		$("#galary").slideDown(6000);
+		$("#works").slideDown(7000);
+		$("#contact").slideDown(8000);
+		$("footer").slideDown(9000);
 	},6000);
 });
