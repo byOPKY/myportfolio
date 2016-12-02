@@ -40,12 +40,27 @@ h3{
 #about p{
 	font-size: 28px;
 }
+#about span{
+	opacity: 0;
+	left:-15px;
+	font-size: 22px;
+}
+#hability span{
+	opacity: 0;
+	left:-15px;
+}
+
+#about .circle , #hability .circle{
+	opacity: 0;
+	left:-15px
+}
 #works .btn{
 	padding-top: 3%;
 	margin:2%;
 }
 #works .card{
 	margin: 2% 2% 2% 5%;
+	padding: 1%;
 }
 .card-reveal{
 	left: 0;
@@ -61,6 +76,12 @@ h3{
 }
 .raya{
 	background-image: url("../img/giphy.gif");
+}
+#about .cielo{
+	background-image: url("../img/yo.jpg");
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: bottom;
 }
 @media (max-width: 600px) {
 	body{
