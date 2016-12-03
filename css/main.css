@@ -7,7 +7,7 @@ body{
 	font-size: 18px;
 }
 header{
-	padding: 1%;
+	padding: 7px;
 	position: fixed;
 	background-color: black;
 	width: 100%;
@@ -28,9 +28,10 @@ h3{
 	display: none;
 	padding-top: 20%;
 	background-image: url("../img/cuaro.gif");
-	background-size: 50%
+	background-size: 50%;
+	text-shadow: 3px 2px 8px #039BE5;
 }
-#about, #hability, #galary, #works, #contact, footer{
+#footer, #about, #hability, #galary, #works, #contact{
 	display: none;
 } 
 
@@ -52,7 +53,10 @@ h3{
 
 #about .circle , #hability .circle{
 	opacity: 0;
-	left:-15px
+	left:-15px;
+}
+#works .card, #galary img {
+	opacity: 0;
 }
 #works .btn{
 	padding-top: 3%;
@@ -74,6 +78,15 @@ h3{
 	letter-spacing: 10px;
 	font-family: 'Days One', sans-serif;
 }
+.index-none{
+	z-index: 2;
+	position: absolute;
+	font-size: 12em;
+	opacity: 0.5;
+	letter-spacing: 10px;
+	font-family: 'Days One', sans-serif;
+	display: none;
+}
 .raya{
 	background-image: url("../img/giphy.gif");
 }
@@ -83,8 +96,42 @@ h3{
 	background-size: 150%;
 	background-position: bottom;
 }
+#contact{
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
 footer{
 	padding: 5px;
+}
+.laboratoria{
+	color: #F19727;
+	padding: 1%;
+}
+@media (max-width: 900px) {
+	body{
+		font-size: 12px;
+	}
+	#datos{
+	background-size: 140%
+}
+	.none{
+	display: block;
+		}
+	.block{
+	display: none;
+		}
+	.index{
+		display: none
+	}
+	.index-none{
+		display: block;
+	}
+	#works .card{
+	margin: 0;
+	}
+	#works .card .card-title{
+	font-size: 1.3em;
+	}
 }
 @media (max-width: 600px) {
 	body{
@@ -99,5 +146,7 @@ footer{
 	.block{
 	display: none;
 		}
-
+	.index-none{
+		font-size: 5em;
+	}
 }
