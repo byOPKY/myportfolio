@@ -41,6 +41,11 @@ h3{
 #about p{
 	font-size: 28px;
 }
+.letter{
+	font-family: 'Cookie', cursive;
+	font-size: 28px;
+}
+
 #about span{
 	opacity: 0;
 	left:-15px;
@@ -96,6 +101,11 @@ h3{
 	background-size: 150%;
 	background-position: bottom;
 }
+#about .cielo img {
+	margin-top: 5%;
+	height: 300px;
+	width: 100%
+}
 #contact{
 	padding-top: 10%;
 	padding-bottom: 10%;
@@ -106,7 +116,10 @@ footer{
 .laboratoria{
 	color: #F19727;
 	padding: 1%;
+	font-family: 'Days One', sans-serif;
+	font-size: 20px;
 }
+
 @media (max-width: 900px) {
 	body{
 		font-size: 12px;
@@ -125,7 +138,11 @@ footer{
 	}
 	.index-none{
 		display: block;
+		font-size: 18em;
 	}
+	#about .cielo img {
+	margin-top: 20%;
+}
 	#works .card{
 	margin: 0;
 	}
@@ -137,9 +154,12 @@ footer{
 	body{
 		font-size: 14px;
 	}
+	#about .cielo img {
+	margin-top: 35%;
+		}
 	#datos{
 	background-size: 180%
-}
+	}
 	.none{
 	display: block;
 		}
@@ -147,6 +167,9 @@ footer{
 	display: none;
 		}
 	.index-none{
-		font-size: 5em;
+		font-size: 6.5em;
+	}
+	#works .card{
+	margin: 2%;
 	}
 }
